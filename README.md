@@ -1,17 +1,51 @@
-# Advanced-House-Price-Prediction-
-🏠 Advanced House Price Prediction
-Tech Stack: Python, Pandas, NumPy, Matplotlib/Seaborn, Scikit-learn
+# 🏠 House Price Prediction
 
-Developed a machine learning model to predict house prices using advanced regression techniques and data preprocessing.
+This project predicts house prices using machine learning techniques on a real-world dataset from Kaggle.
 
-Collected and cleaned real-world housing datasets to handle missing values, outliers, and skewed distributions.
+## 📌 Project Overview
 
-Performed exploratory data analysis (EDA) and feature engineering to identify important predictors like square footage, location, year built, etc.
+- Predicts house sale prices based on various features.
+- Uses regression models and follows the complete data science workflow.
 
-Applied multiple regression models (Linear Regression, Ridge, Lasso, Random Forest) and evaluated them using RMSE and R².
+## 📂 Project Steps
 
-Tuned hyperparameters using GridSearchCV to optimize model performance.
+1. **Data Analysis**
+   - Check missing values
+   - Explore numerical & categorical variables
+   - Detect outliers
+   - Analyze relation with `SalePrice`
 
-Visualized feature importance and model results to make predictions explainable.
+2. **Feature Engineering**
+   - Handle missing data
+   - Encode categorical variables
+   - Scale/transform features
 
-Achieved high prediction accuracy and demonstrated strong understanding of regression and model evaluation.
+3. **Feature Selection**
+   - Remove unimportant or redundant features
+
+4. **Model Building**
+   - Models used: Linear, Ridge, Lasso, Random Forest
+   - Evaluation: R² Score, RMSE
+   - Hyperparameter tuning with GridSearchCV
+
+5. **(Optional) Deployment**
+   - Can be deployed using Flask or Streamlit
+
+## 📊 Dataset
+
+Download from:  
+[Kaggle - House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
+## 🛠️ Tech Used
+
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+
+## 📈 Results
+
+- Best Model: Random Forest Regressor  
+- Accuracy: ~89% R² Score
+
+
