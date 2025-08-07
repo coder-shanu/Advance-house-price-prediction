@@ -28,8 +28,6 @@ This project predicts house prices using machine learning techniques on a real-w
    - Evaluation: R² Score, RMSE
    - Hyperparameter tuning with GridSearchCV
 
-5. **(Optional) Deployment**
-   - Can be deployed using Flask or Streamlit
 
 ## 📊 Dataset
 
